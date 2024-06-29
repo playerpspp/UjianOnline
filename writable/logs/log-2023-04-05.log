@@ -1,0 +1,146 @@
+CRITICAL - 2023-04-05 22:21:53 --> Call to undefined method App\Models\User::all()
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-05 22:22:22 --> Non-static method CodeIgniter\BaseModel::findAll() cannot be called statically
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-04-05 22:23:10 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: YES)
+CRITICAL - 2023-04-05 22:23:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+#0 C:\laragon\www\CIujianonline\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\laragon\www\CIujianonline\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\laragon\www\CIujianonline\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\laragon\www\CIujianonline\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Home.php(21): CodeIgniter\BaseModel->findAll()
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-05 22:30:08 --> Attempt to read property "teacher" on array
+#0 C:\laragon\www\CIujianonline\app\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 24)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 22:31:47 --> Call to undefined method App\Models\User::with
+#0 C:\laragon\www\CIujianonline\app\Controllers\Home.php(21): CodeIgniter\Model->__call('with', Array)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 22:33:10 --> Call to undefined method App\Models\User::selectRelated
+#0 C:\laragon\www\CIujianonline\app\Controllers\Home.php(21): CodeIgniter\Model->__call('selectRelated', Array)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 22:34:29 --> Call to a member function findAll() on null
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-05 22:34:51 --> Call to a member function findAll() on null
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-05 22:34:52 --> Call to a member function findAll() on null
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-05 22:37:30 --> Call to a member function teacher() on array
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-05 22:38:33 --> Call to a member function teacher() on array
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-05 22:46:08 --> Undefined variable $teachers
+#0 C:\laragon\www\CIujianonline\app\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 22)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 22:47:22 --> Call to undefined method App\Models\User::with
+#0 C:\laragon\www\CIujianonline\app\Models\User.php(21): CodeIgniter\Model->__call('with', Array)
+#1 C:\laragon\www\CIujianonline\app\Controllers\Home.php(21): App\Models\User->getData()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-05 22:59:12 --> Cannot redeclare App\Controllers\Home::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-04-05 23:07:14 --> Table 'ujianonline.user' doesn't exist
+CRITICAL - 2023-04-05 23:07:14 --> Call to a member function getRowArray() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Home.php(29): App\Models\M_model->getarray('user', Array)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->actLogin()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-05 23:07:29 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2023-04-05 23:07:29 --> Call to a member function getRowArray() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Home.php(29): App\Models\M_model->getarray('users', Array)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->actLogin()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 23:12:07 --> syntax error, unexpected token "}"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user/user')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user/user')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 23:13:57 --> Undefined variable $model
+#0 C:\laragon\www\CIujianonline\app\Controllers\User.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 28)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\User->user()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 23:17:00 --> syntax error, unexpected token "}"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user/user')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user/user')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-05 23:17:12 --> Unknown column '$data' in 'where clause'
+CRITICAL - 2023-04-05 23:17:12 --> Call to a member function getRowArray() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\User.php(17): App\Models\M_model->getarray('users', '$data')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(809): App\Controllers\User->__construct()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-05 23:17:59 --> Undefined variable $auth
+#0 C:\laragon\www\CIujianonline\app\Controllers\User.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 32)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\User->user()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

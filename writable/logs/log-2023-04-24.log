@@ -1,0 +1,14 @@
+CRITICAL - 2023-04-24 00:25:49 --> syntax error, unexpected identifier "shuffle"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('exams/tes')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('exams/tes')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-24 00:25:50 --> syntax error, unexpected identifier "shuffle"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('exams/tes')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('exams/tes')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

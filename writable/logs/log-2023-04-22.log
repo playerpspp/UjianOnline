@@ -1,0 +1,12 @@
+CRITICAL - 2023-04-22 20:24:03 --> Undefined constant "App\Controllers\this"
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->acttest()
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-22 20:24:03 --> Undefined constant "App\Controllers\this"
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->acttest()
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -1,0 +1,66 @@
+CRITICAL - 2023-05-07 23:42:32 --> Undefined property: stdClass::$class_id
+#0 C:\laragon\www\CIujianonline\app\Views\users\students\edit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 45)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/students/...', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Students.php(97): view('users/students/...', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Students->edit('19')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-07 23:42:33 --> Undefined property: stdClass::$class_id
+#0 C:\laragon\www\CIujianonline\app\Views\users\students\edit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 45)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/students/...', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Students.php(97): view('users/students/...', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Students->edit('19')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-07 23:46:00 --> Undefined property: stdClass::$class_id
+#0 C:\laragon\www\CIujianonline\app\Views\users\students\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 50)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/students/...', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Students.php(99): view('users/students/...', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Students->edit('20')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-07 23:46:00 --> Undefined property: stdClass::$class_id
+#0 C:\laragon\www\CIujianonline\app\Views\users\students\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 50)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/students/...', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Students.php(99): view('users/students/...', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Students->edit('20')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-07 23:46:23 --> Undefined property: stdClass::$class_id
+#0 C:\laragon\www\CIujianonline\app\Views\users\students\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 50)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/students/...', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Students.php(99): view('users/students/...', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Students->edit('20')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-07 23:46:23 --> Undefined property: stdClass::$class_id
+#0 C:\laragon\www\CIujianonline\app\Views\users\students\edit.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 50)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/students/...', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Students.php(99): view('users/students/...', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Students->edit('20')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

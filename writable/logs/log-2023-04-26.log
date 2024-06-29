@@ -1,0 +1,18 @@
+CRITICAL - 2023-04-26 19:06:19 --> syntax error, unexpected token "=="
+#0 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('exams/detail', Array, true)
+#2 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(270): view('exams/detail', Array)
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->detail('147')
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-26 19:06:19 --> syntax error, unexpected token "=="
+#0 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('exams/detail', Array, true)
+#2 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(270): view('exams/detail', Array)
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->detail('147')
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,128 @@
+CRITICAL - 2023-04-18 10:18:39 --> Undefined variable $where2
+#0 C:\laragon\www\CIujianonline\app\Controllers\User.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 42)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-18 10:19:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+CRITICAL - 2023-04-18 10:19:22 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\User.php(42): App\Models\M_model->super_whereIn('exams', 'classes', 'teachers', 'exams.class_id=...', 'exams.teacher_i...', 'exam.class_id', Array)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-18 10:19:45 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\laragon\\www\\...', 312)
+#1 C:\laragon\www\CIujianonline\system\Database\Query.php(312): implode(',', Array)
+#2 C:\laragon\www\CIujianonline\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#3 C:\laragon\www\CIujianonline\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\laragon\www\CIujianonline\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 C:\laragon\www\CIujianonline\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#6 C:\laragon\www\CIujianonline\app\Models\M_model.php(251): CodeIgniter\Database\BaseBuilder->get()
+#7 C:\laragon\www\CIujianonline\app\Controllers\User.php(42): App\Models\M_model->super_whereIn('exams', 'classes', 'teachers', 'exams.class_id=...', 'exams.teacher_i...', 'exam.class_id', Array)
+#8 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\User->index()
+#9 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-04-18 10:20:08 --> Unknown column 'exam.class_id' in 'where clause'
+CRITICAL - 2023-04-18 10:20:08 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\User.php(42): App\Models\M_model->super_whereIn('exams', 'classes', 'teachers', 'exams.class_id=...', 'exams.teacher_i...', 'exam.class_id', Array)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-18 10:47:13 --> Undefined variable $exams
+#0 C:\laragon\www\CIujianonline\app\Views\dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 37)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\User.php(51): view('dashboard', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-18 10:47:41 --> Undefined variable $error
+#0 C:\laragon\www\CIujianonline\app\Views\dashboard.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 57)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\User.php(51): view('dashboard', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-18 10:52:17 --> syntax error, unexpected token ";"
+#0 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\laragon\www\CIujianonline\app\Controllers\User.php(49): view('dashboard', Array, Array)
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\User->index()
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-18 10:53:36 --> syntax error, unexpected variable "$classes", expecting ")"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-18 11:31:11 --> Attempt to read property "exam_name" on array
+#0 C:\laragon\www\CIujianonline\app\Views\exams\exams.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 75)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('exams/exams', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(75): view('exams/exams', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->index()
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-18 11:32:04 --> Attempt to read property "exam_name" on array
+#0 C:\laragon\www\CIujianonline\app\Views\exams\exams.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 75)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('exams/exams', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(75): view('exams/exams', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->index()
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-18 11:32:50 --> Attempt to read property "exam_name" on array
+#0 C:\laragon\www\CIujianonline\app\Views\exams\exams.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 75)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('exams/exams', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(76): view('exams/exams', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->index()
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-18 11:33:25 --> Undefined variable $key
+#0 C:\laragon\www\CIujianonline\app\Views\exams\exams.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 80)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('exams/exams', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(76): view('exams/exams', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->index()
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-18 11:36:42 --> syntax error, unexpected token "{"
+#0 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('exams/exams', Array, true)
+#2 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(78): view('exams/exams', Array)
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->index()
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,138 @@
+CRITICAL - 2023-04-10 01:13:18 --> syntax error, unexpected single-quoted string "role", expecting ")"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('teachers/input')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('teachers/input')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-10 01:13:30 --> Cannot redeclare App\Controllers\Teachers::input()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-04-10 01:14:08 --> Table 'ciujianonline.user' doesn't exist
+CRITICAL - 2023-04-10 01:14:08 --> Call to a member function getRowArray() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Teachers.php(69): App\Models\M_model->getarray('user', Array)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Teachers->actinput()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-10 01:15:22 --> Table 'ciujianonline.user' doesn't exist
+CRITICAL - 2023-04-10 01:15:22 --> Call to a member function getRowArray() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Teachers.php(69): App\Models\M_model->getarray('user', Array)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Teachers->actinput()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-10 01:16:00 --> Array to string conversion
+#0 C:\laragon\www\CIujianonline\app\Controllers\Teachers.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\laragon\\www\\...', 66)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Teachers->actinput()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-10 01:16:29 --> Table 'ciujianonline.user' doesn't exist
+CRITICAL - 2023-04-10 01:16:29 --> Call to a member function getRowArray() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Teachers.php(70): App\Models\M_model->getarray('user', Array)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Teachers->actinput()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-10 01:16:41 --> syntax error, unexpected token "else"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/user')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/user')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-10 01:17:04 --> syntax error, unexpected token "else"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/user')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/user')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-10 01:17:50 --> syntax error, unexpected token "else"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/user')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/user')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-10 01:20:39 --> Too few arguments to function App\Models\M_model::fusionArray(), 3 passed in C:\laragon\www\CIujianonline\app\Controllers\Teachers.php on line 90 and exactly 4 expected
+#0 C:\laragon\www\CIujianonline\app\Controllers\Teachers.php(90): App\Models\M_model->fusionArray('users', 'teachers', 'users.id_user=t...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Teachers->edit('12')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-10 01:20:49 --> Attempt to read property "teacher_name" on string
+#0 C:\laragon\www\CIujianonline\app\Views\users\teachers\teachers.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 44)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/teachers/...', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Teachers.php(94): view('users/teachers/...', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Teachers->edit('12')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-10 01:23:21 --> syntax error, unexpected token ";"
+#0 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/teachers/...', Array, true)
+#2 C:\laragon\www\CIujianonline\app\Controllers\Teachers.php(94): view('users/teachers/...', Array)
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Teachers->edit('12')
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-10 01:24:32 --> Attempt to read property "teacher_name" on array
+#0 C:\laragon\www\CIujianonline\app\Views\users\teachers\edit.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 6)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/teachers/...', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Teachers.php(94): view('users/teachers/...', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Teachers->edit('12')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-10 01:34:42 --> Undefined variable $where2
+#0 C:\laragon\www\CIujianonline\app\Controllers\Teachers.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 137)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Teachers->delete('12')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teachers))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-10 01:34:52 --> Table 'ciujianonline.karyawan' doesn't exist
+ERROR - 2023-04-10 01:34:52 --> Table 'ciujianonline.user' doesn't exist
+ERROR - 2023-04-10 01:35:04 --> Table 'ciujianonline.karyawan' doesn't exist
+ERROR - 2023-04-10 01:35:04 --> Table 'ciujianonline.user' doesn't exist
+CRITICAL - 2023-04-10 01:47:50 --> Unclosed '{' on line 41
+#0 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/students/...', Array, true)
+#2 C:\laragon\www\CIujianonline\app\Controllers\Students.php(35): view('users/students/...', Array)
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Students->index()
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-10 02:35:29 --> Undefined variable $model
+#0 C:\laragon\www\CIujianonline\app\Controllers\Students.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 45)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Students->input()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-10 02:35:53 --> Undefined property: stdClass::$id
+#0 C:\laragon\www\CIujianonline\app\Views\users\students\input.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 48)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/students/...', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Students.php(47): view('users/students/...', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Students->input()
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

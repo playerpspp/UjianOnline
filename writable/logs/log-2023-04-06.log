@@ -1,0 +1,65 @@
+CRITICAL - 2023-04-06 02:07:27 --> Undefined variable $model
+#0 C:\laragon\www\CIujianonline\app\Controllers\Home.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 34)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->actLogin()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-06 02:13:53 --> syntax error, unexpected token "echo", expecting "," or ";"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-06 02:16:56 --> Class "Auth" not found
+#0 C:\laragon\www\CIujianonline\system\View\View.php(210): include()
+#1 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\laragon\www\CIujianonline\app\Controllers\Home.php(52): view('dashboard')
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-06 02:17:56 --> Undefined constant "student"
+#0 C:\laragon\www\CIujianonline\system\View\View.php(210): include()
+#1 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\laragon\www\CIujianonline\app\Controllers\Home.php(52): view('dashboard')
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-06 02:58:40 --> syntax error, unexpected variable "$exams"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-06 02:58:51 --> Table 'ciujianonline.teacher' doesn't exist
+CRITICAL - 2023-04-06 02:58:51 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\User.php(26): App\Models\M_model->super('exams', 'classes', 'teacher', 'exams.class_id=...', 'exams.teacher_i...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-06 03:00:04 --> Table 'ciujianonline.teacher' doesn't exist
+CRITICAL - 2023-04-06 03:00:04 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\User.php(26): App\Models\M_model->super('exams', 'classes', 'teacher', 'exams.class_id=...', 'exams.teacher_i...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-06 03:00:06 --> Table 'ciujianonline.teacher' doesn't exist
+CRITICAL - 2023-04-06 03:00:06 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\User.php(26): App\Models\M_model->super('exams', 'classes', 'teacher', 'exams.class_id=...', 'exams.teacher_i...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

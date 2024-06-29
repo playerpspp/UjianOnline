@@ -1,0 +1,305 @@
+ERROR - 2023-04-14 11:19:09 --> Unknown column 'exam_id' in 'where clause'
+CRITICAL - 2023-04-14 11:19:09 --> Call to a member function getRow() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(202): App\Models\M_model->getRow('students', Array)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->ready('141')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 11:29:37 --> Undefined variable $check
+#0 C:\laragon\www\CIujianonline\app\Views\exams\ready.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 24)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('exams/ready', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(204): view('exams/ready', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->ready('141')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-14 11:34:28 --> syntax error, unexpected token "elseif", expecting end of file
+#0 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('exams/ready', Array, true)
+#2 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(204): view('exams/ready', Array)
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->ready('141')
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-14 11:34:51 --> syntax error, unexpected token "elseif"
+#0 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('exams/ready', Array, true)
+#2 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(204): view('exams/ready', Array)
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->ready('141')
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-14 11:35:27 --> syntax error, unexpected token "elseif", expecting end of file
+#0 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('exams/ready', Array, true)
+#2 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(204): view('exams/ready', Array)
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->ready('141')
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-14 11:42:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+CRITICAL - 2023-04-14 11:42:18 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(223): App\Models\M_model->getwhereInKey3('answers', Array, 'question_id')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->work('{{$exam->id}}')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 11:58:20 --> syntax error, unexpected variable "$exam"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('exams/work/141')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('exams/work/141')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 11:58:33 --> syntax error, unexpected token "public"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('exams/work/141')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('exams/work/141')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 11:59:00 --> syntax error, unexpected token ",", expecting variable or "{" or "$"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('exams/work/141')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('exams/work/141')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 12:00:08 --> Cannot use object of type stdClass as array
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->work('141')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-14 12:02:12 --> syntax error, unexpected variable "$exam"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('exams/work/141')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('exams/work/141')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 12:03:12 --> Cannot use object of type stdClass as array
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->work('141')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-14 14:17:04 --> Unmatched '}'
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('exams/actwork/1...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('exams/actwork/1...')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-14 14:43:35 --> Unknown column 'exam_student_id' in 'field list'
+ERROR - 2023-04-14 14:43:35 --> Unknown column 'exam_student_id' in 'field list'
+ERROR - 2023-04-14 14:43:35 --> Unknown column 'exam_student_id' in 'field list'
+CRITICAL - 2023-04-14 14:43:35 --> CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\laragon\www\CIujianonline\app\Models\M_model.php on line 146
+#0 C:\laragon\www\CIujianonline\app\Models\M_model.php(146): CodeIgniter\Database\BaseBuilder->whereIn(Array)
+#1 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(290): App\Models\M_model->whereIncount('questions', Array, 'question_id')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('141')
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-14 14:48:13 --> CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\laragon\www\CIujianonline\app\Models\M_model.php on line 146
+#0 C:\laragon\www\CIujianonline\app\Models\M_model.php(146): CodeIgniter\Database\BaseBuilder->whereIn(Array)
+#1 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(291): App\Models\M_model->whereIncount('questions', Array, Array, 'question_id')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('141')
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-14 14:48:16 --> CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\laragon\www\CIujianonline\app\Models\M_model.php on line 146
+#0 C:\laragon\www\CIujianonline\app\Models\M_model.php(146): CodeIgniter\Database\BaseBuilder->whereIn(Array)
+#1 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(291): App\Models\M_model->whereIncount('questions', Array, Array, 'question_id')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('141')
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-14 14:48:29 --> CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\laragon\www\CIujianonline\app\Models\M_model.php on line 151
+#0 C:\laragon\www\CIujianonline\app\Models\M_model.php(151): CodeIgniter\Database\BaseBuilder->whereIn(Array)
+#1 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(291): App\Models\M_model->whereIncount2('questions', Array, Array, 'question_id')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('141')
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-14 14:52:53 --> syntax error, unexpected token "=>"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('exams/actwork/1...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('exams/actwork/1...')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 14:53:49 --> syntax error, unexpected token ","
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('exams/actwork/1...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('exams/actwork/1...')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 14:54:00 --> syntax error, unexpected token "=>"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('exams/actwork/1...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('exams/actwork/1...')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 14:54:28 --> CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\laragon\www\CIujianonline\app\Models\M_model.php on line 151
+#0 C:\laragon\www\CIujianonline\app\Models\M_model.php(151): CodeIgniter\Database\BaseBuilder->whereIn(Array)
+#1 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(291): App\Models\M_model->whereIncount2('questions', Array, Array, 'question_id')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('141')
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-14 14:56:08 --> CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\laragon\www\CIujianonline\app\Models\M_model.php on line 151
+#0 C:\laragon\www\CIujianonline\app\Models\M_model.php(151): CodeIgniter\Database\BaseBuilder->whereIn(Array)
+#1 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(292): App\Models\M_model->whereIncount2('questions', Array, Array, 'question_id')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('141')
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-14 15:00:13 --> array_map(): Argument #1 ($callback) must be a valid callback or null, function "question_id" not found or invalid function name
+#0 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(290): array_map('question_id', Array)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('141')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 15:02:16 --> array_map(): Argument #1 ($callback) must be a valid callback or null, function "question_id" not found or invalid function name
+#0 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(290): array_map('question_id', Array)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('141')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 15:02:34 --> CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\laragon\www\CIujianonline\app\Models\M_model.php on line 151
+#0 C:\laragon\www\CIujianonline\app\Models\M_model.php(151): CodeIgniter\Database\BaseBuilder->whereIn(Array)
+#1 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(292): App\Models\M_model->whereIncount2('questions', Array, Array, 'question_id')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('141')
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-14 15:03:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::count()
+#0 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(291): App\Models\M_model->whereIncount2('questions', 'question_id', 'question_id', Array, 'question_id')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('141')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 15:04:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(291): App\Models\M_model->whereIncount2('questions', 'question_id', 'question_id', Array, 'question_id')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('141')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 15:06:06 -->  route cannot be found while reverse-routing.
+#0 C:\laragon\www\CIujianonline\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\laragon\www\CIujianonline\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(321): redirect('/exams')
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('141')
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-04-14 15:06:26 -->  route cannot be found while reverse-routing.
+#0 C:\laragon\www\CIujianonline\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\laragon\www\CIujianonline\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(321): redirect('/exams')
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('141')
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-04-14 15:07:56 --> Unknown column 'exam_student_id' in 'field list'
+ERROR - 2023-04-14 15:07:56 --> Unknown column 'exam_student_id' in 'field list'
+ERROR - 2023-04-14 15:07:56 --> Unknown column 'exam_student_id' in 'field list'
+CRITICAL - 2023-04-14 15:10:24 --> Undefined array key 2
+#0 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 130)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actinput()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 15:11:14 --> Undefined array key 2
+#0 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 130)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actinput()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 15:13:17 --> Undefined array key 72
+#0 C:\laragon\www\CIujianonline\app\Views\exams\detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 33)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('exams/detail', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(190): view('exams/detail', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->detail('143')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-14 15:13:34 --> Undefined array key 72
+#0 C:\laragon\www\CIujianonline\app\Views\exams\detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 33)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('exams/detail', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(190): view('exams/detail', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->detail('143')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-14 15:21:34 --> Class "App\Controllers\ExamStudent" not found
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('145')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-14 15:21:54 --> CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in C:\laragon\www\CIujianonline\app\Models\M_model.php on line 146
+#0 C:\laragon\www\CIujianonline\app\Models\M_model.php(146): CodeIgniter\Database\BaseBuilder->whereIn(Array)
+#1 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(300): App\Models\M_model->whereIncount('answers', Array, 'answer_id')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('145')
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#4 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-14 15:26:24 --> Unsupported operand types: float * array
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('145')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-14 15:28:53 --> Unsupported operand types: float * array
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('145')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-14 15:29:35 --> Array to string conversion
+#0 C:\laragon\www\CIujianonline\app\Controllers\Exams.php(301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\laragon\\www\\...', 301)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('145')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 15:29:49 --> Unsupported operand types: float * array
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Exams->actwork('145')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Exams))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

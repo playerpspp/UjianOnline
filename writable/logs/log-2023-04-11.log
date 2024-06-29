@@ -1,0 +1,198 @@
+CRITICAL - 2023-04-11 21:49:01 --> syntax error, unexpected token "else"
+#0 C:\laragon\www\CIujianonline\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-11 21:52:46 --> Undefined property: stdClass::$name
+#0 C:\laragon\www\CIujianonline\app\Views\users\students\edit.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 6)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/students/...', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Students.php(99): view('users/students/...', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Students->edit('13')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-11 21:53:41 --> Undefined property: stdClass::$user
+#0 C:\laragon\www\CIujianonline\app\Views\users\students\edit.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 30)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/students/...', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Students.php(99): view('users/students/...', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Students->edit('13')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Students))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-11 21:55:46 --> Unknown column 'class' in 'field list'
+ERROR - 2023-04-11 21:55:52 --> Unknown column 'class' in 'field list'
+ERROR - 2023-04-11 21:58:56 --> Cannot add or update a child row: a foreign key constraint fails (`ciujianonline`.`students`, CONSTRAINT `students_class_id_foreign` FOREIGN KEY (`class_id`) REFERENCES `classes` (`class_id`))
+ERROR - 2023-04-11 21:59:19 --> Duplicate entry 'ret@gmail.com' for key 'users.users_email_unique'
+ERROR - 2023-04-11 22:00:25 --> Cannot add or update a child row: a foreign key constraint fails (`ciujianonline`.`students`, CONSTRAINT `students_class_id_foreign` FOREIGN KEY (`class_id`) REFERENCES `classes` (`class_id`))
+CRITICAL - 2023-04-11 22:05:09 --> Too few arguments to function App\Models\M_model::super(), 3 passed in C:\laragon\www\CIujianonline\app\Controllers\Classes.php on line 31 and exactly 5 expected
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(31): App\Models\M_model->super('classes', 'students', 'students.class_...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-11 22:09:34 --> Unknown column 'students.student_id' in 'field list'
+CRITICAL - 2023-04-11 22:09:34 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(31): App\Models\M_model->classes('classes', 'students', 'classes.class_i...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-11 22:11:22 --> Unknown column 'students.student_id' in 'field list'
+CRITICAL - 2023-04-11 22:11:22 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(31): App\Models\M_model->classes('classes', 'students', 'classes.class_i...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-11 22:12:58 --> Unknown column 'students.student_id' in 'field list'
+CRITICAL - 2023-04-11 22:12:58 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(31): App\Models\M_model->classes('classes', 'students', 'classes.class_i...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-11 22:13:08 --> Expression #5 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'ciujianonline.students.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2023-04-11 22:13:08 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(31): App\Models\M_model->classes('classes', 'students', 'classes.class_i...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-11 22:13:25 --> Unknown column 'students.student_id' in 'field list'
+CRITICAL - 2023-04-11 22:13:25 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(31): App\Models\M_model->classes('classes', 'students', 'classes.class_i...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-11 22:14:01 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'ciujianonline.classes.class_id'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2023-04-11 22:14:01 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(31): App\Models\M_model->classes('classes', 'students', 'classes.class_i...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-11 22:14:21 --> In aggregated query without GROUP BY, expression #1 of SELECT list contains nonaggregated column 'ciujianonline.classes.class_id'; this is incompatible with sql_mode=only_full_group_by
+CRITICAL - 2023-04-11 22:14:21 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(31): App\Models\M_model->classes('classes', 'students', 'classes.class_i...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-11 22:19:49 --> Unknown column 'students.student_id' in 'field list'
+CRITICAL - 2023-04-11 22:19:49 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(31): App\Models\M_model->classes('classes', 'students', 'classes.class_i...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-11 22:46:56 --> Attempt to read property "class_id" on array
+#0 C:\laragon\www\CIujianonline\app\Views\users\classes\classes.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 44)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/classes/c...', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(35): view('users/classes/c...', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->index()
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-11 23:19:34 --> Undefined variable $model
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 61)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->actinput()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-11 23:20:43 --> Unknown column 'students.class_idleft' in 'on clause'
+CRITICAL - 2023-04-11 23:20:43 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(31): App\Models\M_model->classes('classes', 'students', 'classes.class_i...')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->index()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-11 23:24:59 --> Undefined variable $class
+#0 C:\laragon\www\CIujianonline\app\Views\users\classes\edit.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 6)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/classes/e...', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(77): view('users/classes/e...', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->edit('7')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-11 23:25:18 --> Undefined variable $class
+#0 C:\laragon\www\CIujianonline\app\Views\users\classes\edit.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 6)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/classes/e...', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(77): view('users/classes/e...', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->edit('7')
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-11 23:26:36 --> Object of class stdClass could not be converted to string
+#0 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->edit('7')
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-04-11 23:26:51 --> Array to string conversion
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\laragon\\www\\...', 74)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->edit('7')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-11 23:26:53 --> Array to string conversion
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\laragon\\www\\...', 74)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->edit('7')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-11 23:28:31 --> Array to string conversion
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\laragon\\www\\...', 74)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->edit('7')
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-11 23:35:59 --> Undefined variable $username
+#0 C:\laragon\www\CIujianonline\app\Controllers\Classes.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 92)
+#1 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Classes->actedit()
+#2 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Classes))
+#3 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-11 23:59:31 --> Undefined property: stdClass::$name
+#0 C:\laragon\www\CIujianonline\app\Views\users\profile.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\laragon\\www\\...', 35)
+#1 C:\laragon\www\CIujianonline\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\CIujianonline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\laragon\www\CIujianonline\system\Common.php(1089): CodeIgniter\View\View->render('users/profile', Array, true)
+#4 C:\laragon\www\CIujianonline\app\Controllers\Profile.php(43): view('users/profile', Array)
+#5 C:\laragon\www\CIujianonline\system\CodeIgniter.php(832): App\Controllers\Profile->index()
+#6 C:\laragon\www\CIujianonline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#7 C:\laragon\www\CIujianonline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\CIujianonline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
